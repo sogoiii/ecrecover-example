@@ -17,3 +17,7 @@ Setup:
 4. npm install
 5. npm run deploy
 6. npm run validate
+
+NOTE:
+---
+This will not work with testrpc!
