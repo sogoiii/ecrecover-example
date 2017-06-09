@@ -1,0 +1,30 @@
+{
+  "name": "ecrecover-example",
+  "version": "1.0.0",
+  "description": "create and validate an ethereum signature",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "truffle compile && truffle migrate --reset",
+    "validate": "node index"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "encryption",
+    "validation",
+    "signature",
+    "signing",
+    "validating",
+    "ecrecover"
+  ],
+  "author": "angellopozo@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "truffle-contract": "^2.0.1",
+    "web3": "^0.19.0"
+  }
+}
