@@ -29,7 +29,10 @@ signature = signature.substr(2);
 const r = '0x' + signature.slice(0, 64)
 const s = '0x' + signature.slice(64, 128)
 const v = '0x' + signature.slice(128, 130)
-const v_decimal = web3.toDecimal(v)
+var v_decimal = web3.toDecimal(v)
+if(v_decimal != 27 || v_decimal != 28) {
+	v_decimal += 27
+}
 
 console.log(`r -----------> ${r}`)
 console.log(`s -----------> ${s}`)
