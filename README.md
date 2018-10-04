@@ -1,6 +1,6 @@
 Purpose:
 ---
-Provide a demo applications that does signing and validation. The user will create a signature, and then validate it against a Solidity  smart contract.
+Provide a demo application that does signing and validation. The user will create a signature, and then validate it against a Solidity  smart contract.
 
 Requirements:
 ----
@@ -11,7 +11,7 @@ Requirements:
 
 Setup:
 ----
-1. Start privae Ethereum node (`geth --datadir ... --networkid ... --mine --minerthreads 1 --rpc ...`)
+1. Start private Ethereum node (`geth --datadir ... --networkid ... --mine --minerthreads 1 --rpc ...`)
 2. Clone repo
 3. cd into repo
 4. npm install
